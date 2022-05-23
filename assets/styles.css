@@ -122,6 +122,7 @@ body {
 
 .social-networks ul {
    padding-inline-start: 0px;
+   text-decoration: none;
 }
 
 .social-networks img {
