@@ -1,28 +1,28 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
+site: Dan Breu
+title: Dan Breu
+keywords: danbreu, blog, personal, technology, building, software, design, enterpreneurship
 description: >-
-  Ephesus - Minimalist Jekyll Theme
+  Personal Website of Dan Breu, a blog about technology, building software, design and enterpreneurship.
 lang: en-US
-timezone:  Europe/Istanbul
-repo: https://github.com/onepase/Ephesus # site repo [optional]
+timezone:  America/Vancouver
+repo:  # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
 discus-identifier:  XXX
 
 # Author settings
 author:
-  name: Hakan Torun
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
-  picture: assets/images/profile.jpg 
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  name: Danilo Briceño
+  bio: Innovator <br> Founder @ekiscyber <br> AppSec / DevSec
+  picture: assets/images/danbreu.com.png
+  github: dan-breu # github username
+  twitter: dan_breu # twitter username
+  facebook: dan_breu # facebook username
+  instagram: dan_breu # instagram username
+  youtube: https://www.youtube.com/@danbreu # youtube username
+  linkedin: danbreu # linkedin username
+  email: danbreu.com@gmail.com # email adress
 
 
 # URL settings

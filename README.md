@@ -60,3 +60,8 @@ Please feel free to contribute. Do not hesitate to open a pull request and fix i
 ## License
 
 This project is open source and available under the [MIT License](LICENSE.md).
+
+
+# TBD
+- [ ] Change the logo when is dark or light
+- [ ] Add colors for links

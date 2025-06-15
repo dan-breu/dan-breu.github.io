@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Dan Breu</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2025-06-15T00:16:23-07:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Danilo Briceño</name>
+   <email>danbreu.com@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>My First Web Application: Cripsos.com</title>
+   <link href="http://localhost:4000/my-first-web-application/"/>
+   <updated>2025-06-14T00:00:00-07:00</updated>
+   <id>http://localhost:4000/my-first-web-application</id>
+   <content type="html">&lt;h2 id=&quot;the-journey-begins&quot;&gt;The Journey Begins&lt;/h2&gt;
+
+&lt;p&gt;Driven by my enthusiasm for technology and programming, I set out to build my first web application. Like anyone learning something new, I started with the basics, and about two and a half months later, I managed to publish a functional mini-application.&lt;/p&gt;
+
+&lt;p&gt;The good news is: I enjoyed it. But it required a lot of consistency, as there were moments of stagnation and, of course, the daily workload sometimes made it tempting to set the project aside.&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-stack&quot;&gt;Technology Stack&lt;/h2&gt;
+
+&lt;p&gt;For this project, I selected &lt;strong&gt;JavaScript with Node.js&lt;/strong&gt; as my programming language. Along with this stack, I leveraged many open-source libraries provided by the amazing developer community.&lt;/p&gt;
+
+&lt;p&gt;This journey allowed me to explore new areas in development, cloud, infrastructure, and security. It also brought me closer to technologies like &lt;strong&gt;Linux, NGINX, containers, APIs&lt;/strong&gt;, and many others.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-cripsoscom&quot;&gt;About Cripsos.com&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/cripsos-web.jpeg&quot; alt=&quot;Cripsos.com&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The application is called &lt;strong&gt;Cripsos.com&lt;/strong&gt;, and it’s an early warning system for cryptocurrency exchange rates. Here’s how it works:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uses &lt;strong&gt;Google API for authentication&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Fetches cryptocurrency values via the &lt;strong&gt;CoinGecko API&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Sends notifications using the &lt;strong&gt;Mailgun service&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Allows users to easily configure alerts and delete accounts if desired.&lt;/li&gt;
+  &lt;li&gt;Stores no personal information except for your name and email, which are used solely to send alerts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are still many features to improve and implement, which I hope to do during my free time. For now, this version represents my &lt;strong&gt;Minimum Viable Product (MVP)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feedback and suggestions are very welcome.&lt;br /&gt;
+Although I’m not a huge coffee fan, you can still invite me for a cup of tea through &lt;strong&gt;Gumroad&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;gratitude&quot;&gt;Gratitude&lt;/h2&gt;
+
+&lt;p&gt;I can’t close this article without thanking God for allowing me this opportunity, my family for their support, encouragement, and for sharing in my joy.&lt;/p&gt;
+
+&lt;h2 id=&quot;-video&quot;&gt;🎥 Video&lt;/h2&gt;
+
+&lt;p&gt;You can watch a video about my experience at the following &lt;a href=&quot;https://www.youtube.com/watch?v=dbOfWBcsIng&amp;amp;t=145s&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;YouTube link&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Notes on the CISSP Exam and My Study Method</title>
+   <link href="http://localhost:4000/cissp-study-method-exam-experience/"/>
+   <updated>2023-02-28T00:00:00-08:00</updated>
+   <id>http://localhost:4000/cissp-study-method-exam-experience.md</id>
+   <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;The first thing you need to know is that I got certified in 2017. Back then, the exam consisted of 250 questions over 6 hours. I didn’t take any course or class for the exam; my method focused on practicing what I had learned (both theoretical and practical). After reviewing the exam content outline, I realized that memorization alone wouldn’t work. This method took me almost a year, including one failed attempt.&lt;/p&gt;
+
+&lt;p&gt;Before I describe my experience with this certification, it’s important to mention that study methods are highly personal. My approach may help you — or it may not. What’s important is that you develop your own study method that fits your preferences, schedule, and needs. Let’s begin.&lt;/p&gt;
+
+&lt;h2 id=&quot;laying-the-foundation&quot;&gt;Laying the Foundation&lt;/h2&gt;
+
+&lt;p&gt;I recommend that before you start studying for the CISSP, you first evaluate your current knowledge. In my case, I took the CompTIA Security+ course and exam, which allowed me to identify my strengths and weaknesses. You can use a different certification or course, but make sure it covers several of the CISSP knowledge domains. Remember that to sit for the CISSP exam, you must demonstrate at least 5 years of experience in at least 2 CBK domains.&lt;/p&gt;
+
+&lt;p&gt;Be honest with yourself. Take a mock exam based on what you currently know. If you don’t want to spend money, there are many practice tests available online that can give you a starting point to identify where you need to focus.&lt;/p&gt;
+
+&lt;h2 id=&quot;deepening-the-concepts&quot;&gt;Deepening the Concepts&lt;/h2&gt;
+
+&lt;p&gt;After earning my Security+ certification, I started to dive deeper into the areas where I lacked knowledge and experience. I sought out projects where I knew I would learn about specific topics. For example, to learn about cryptography, I worked with digital certificates in email systems. I also worked with IPSec VPN systems and tried to fully understand all the terms used to establish secure communication between two points.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/robustel-device.jpeg&quot; alt=&quot;VPN IPSEC using IoT Devices&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Get comfortable using the command line, as it often allows you to see in detail what is happening, whereas graphical interfaces may hide much of the communication processes. The goal is to accompany theoretical knowledge with practice, which helps you learn and retain concepts better.&lt;/p&gt;
+
+&lt;p&gt;I can assure you that for the exam, you need to have a solid understanding of the concepts and then learn their applications. For instance, I vaguely remember a question like:&lt;br /&gt;
+&lt;em&gt;What countermeasures would you use against malicious software?&lt;/em&gt;&lt;br /&gt;
+Almost all the answers were technically correct. Without a clear grasp of the concepts, you might miss the best answer.&lt;/p&gt;
+
+&lt;h2 id=&quot;study-materials&quot;&gt;Study Materials&lt;/h2&gt;
+
+&lt;p&gt;I knew from the beginning that weekend courses weren’t compatible with my work and family schedule. A 5-day course also wouldn’t be sufficient for me, as I needed to go deeper into each knowledge domain. So, I decided to study at my own pace.&lt;/p&gt;
+
+&lt;p&gt;I bought the official CISSP book on Amazon and began studying.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/my-cissp-book.jpeg&quot; alt=&quot;My CISSP Book&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;isc2-cissp-official-book&quot;&gt;ISC2 CISSP Official Book&lt;/h3&gt;
+
+&lt;p&gt;I reserved 5–6 AM from Monday to Friday to study, take notes, read the book, and jot down any questions or doubts. I didn’t read in order; instead, I started with the topics I was least familiar with. Again, the important thing is to practice the concepts you’re learning as much as possible.&lt;/p&gt;
+
+&lt;p&gt;Another method that helped me reinforce my learning was recording myself on my phone explaining the material after each session. Then, on my way to work, I would listen to the recordings repeatedly.&lt;/p&gt;
+
+&lt;p&gt;After finishing the official book (I don’t remember exactly how long it took), I supplemented my study with &lt;a href=&quot;https://www.amazon.com/CISSP-Certified-Information-Security-Professional/dp/0782144438&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;another book&lt;/a&gt; full of practice questions that explained the reasoning behind each answer.&lt;/p&gt;
+
+&lt;p&gt;Nowadays, there’s plenty of information online — videos, audio, mind maps, and more. The key is to organize, prioritize, and start your journey. The books I used likely have newer editions now, so review the available resources carefully, and don’t hesitate to reach out to people who have recently passed the exam. If you don’t know anyone, feel free to DM me — I can recommend some people.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-exam&quot;&gt;The Exam&lt;/h2&gt;
+
+&lt;p&gt;Many people who know me are aware that the certifications listed on my LinkedIn profile are only those in which I truly learned something and invested real effort. CISSP is a challenging, difficult, and comprehensive exam. With the new format, the exam can end early once the system determines the candidate’s performance, avoiding “death by questions.”&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier, I failed my first attempt. Perhaps anxiety played a role, as after 3 hours the exam became mentally exhausting and seemed never-ending. Still, I didn’t hesitate to take the exam again because I felt I was close to passing. How did I know? Because I understood most of the questions and was confident in my answers.&lt;/p&gt;
+
+&lt;p&gt;So, I reviewed the material again and scheduled my second attempt a few months later.&lt;/p&gt;
+
+&lt;h2 id=&quot;exam-results&quot;&gt;Exam Results&lt;/h2&gt;
+
+&lt;p&gt;Like the first attempt, the second exam was challenging. But I went in determined to pass — and if I hadn’t, I was ready to try a third time. Finally, I achieved the expected result.&lt;/p&gt;
+
+&lt;p&gt;My advice for the exam: don’t spend too much time on any single question. If you know the answer, select it. If not, mark it for review. Don’t exhaust your brain over one question, because questions you’re more comfortable with may appear later.&lt;/p&gt;
+
+&lt;p&gt;Don’t fear the exam or failure. If you truly understand the concepts and their applications, you’ll pass. And remember, you always have a chance to retake it.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h2&gt;
+
+&lt;p&gt;I believe one of the best things about earning the CISSP certification is the self-discipline you develop to continue learning. After certification, you must keep learning and maintaining your CPE credits. In any case, it’s important to specialize in something and deepen your knowledge. Move from “T-shaped” knowledge to “π-shaped” or “M-shaped” knowledge as your career develops.
+&lt;img src=&quot;/assets/images/posts/type-knowledge.jpeg&quot; alt=&quot;Skill Shape Models&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Elit in massa parturient a class condimentum suspendisse.</title>
+   <link href="http://localhost:4000/elit-in-massa-parturient-a-class-condimentum-suspendisse/"/>
+   <updated>2021-09-10T17:00:00-07:00</updated>
+   <id>http://localhost:4000/elit-in-massa-parturient-a-class-condimentum-suspendisse</id>
+   <content type="html">&lt;p&gt;Lorem markdownum feriam: vir, vulnere cum postquam ocius, ecce. Exsangui totiens
+generis &lt;a href=&quot;http://www.fertur.io/aeacidis&quot;&gt;Iuppiter&lt;/a&gt; dederunt cerva refoventque,
+mea nulla secessit modo et. Hospes &lt;strong&gt;felices stetimusque&lt;/strong&gt; erat: &lt;strong&gt;Niobe
+nostro&lt;/strong&gt;, ne ruris &lt;em&gt;in deas extrema&lt;/em&gt;. Thebaides crimina, tu dixerat eripiet
+quiescere animae, pervenientia fuit furta sacrata illam, dabat. Quod munera
+monstra rimas ultra cunctos.&lt;/p&gt;
+
+&lt;p&gt;Incipit pars telis quod colebat tenet Iovis, Perseus et non Hectoris caesae temperat tetigere pulvis? Phaethonteos avus Asopida mansit proelia quamquam furoris: fuit Haemum functa non ferarum vincat &lt;em&gt;pretium te gloria&lt;/em&gt; ignibus.&lt;/p&gt;
+
+&lt;h2 id=&quot;potum-maius-urbem&quot;&gt;Potum maius urbem&lt;/h2&gt;
+
+&lt;p&gt;Polydori arvis. Quoniam faciesque dona plus Iasone &lt;strong&gt;credas&lt;/strong&gt;: et novem recipit
+praeceps desint: teneat naribus. &lt;a href=&quot;http://fierent.net/miserrimasecreta&quot;&gt;Athamanas
+Cupido&lt;/a&gt;, ureret gradere adapertaque nacta
+spargere pater et &lt;a href=&quot;http://nocte-conclamat.org/indiciique-micant&quot;&gt;fata&lt;/a&gt; ferrove
+&lt;strong&gt;et&lt;/strong&gt; loqui essem Tegeaea varios leviter. Et nymphis in exhibita villo!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/ephesus.jpg&quot; alt=&quot;Ephesus&quot; title=&quot;Ephesus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sacra erat cuncta. Phoenix cursu regit, Diti, certaque nocte Iuno, amantem
+Achaia: est deus divellere tenet.&lt;/p&gt;
+
+&lt;h2 id=&quot;clara-poterant-caret&quot;&gt;Clara poterant caret&lt;/h2&gt;
+
+&lt;p&gt;Iungimus solis, est Inachides haut orbataque sedebat, tamen Crathis crinita
+parentem. Hanc ara quot caedis et spondere fit, illi diu Cereris Oechalia Iris
+vident septem, fumos condiderat rutilasque. Tenent instrumenta nudaverat dicta.
+Et et curis: quod Arcades ipsa: vellet, altius non madidos numina in.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marmor regina Ionium elisa data Talibus rogat&lt;/li&gt;
+  &lt;li&gt;Novi nosterque hac perque poenam exemplis&lt;/li&gt;
+  &lt;li&gt;Finemque nitidis alteriusque odiique aspicit Tartessia est&lt;/li&gt;
+  &lt;li&gt;Iuvenum nostri alipedi&lt;/li&gt;
+  &lt;li&gt;Quae remorata et arto silvestre fidae adhuc&lt;/li&gt;
+  &lt;li&gt;Cornua altus intrat os vocant regia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Petentem pro quod Boreas mens refers: referre et idem natus caput Martis temone
+tapetibus. Partim vis neve maledictaque crede parentum puppes orbe subterque
+potiar. Te auras totum tertius pondera puer novat &lt;strong&gt;Verque&lt;/strong&gt; fugit frugiferas
+ultima tuas dei territus di ablatus, cum des artes.&lt;/p&gt;
+
+&lt;p&gt;Socium est facti est enim neve patris facto Laertaque formam. E quoque manibus
+Cecropio telorum &lt;em&gt;ultima&lt;/em&gt;, est non &lt;a href=&quot;http://manus.io/est&quot;&gt;est&lt;/a&gt;, sim desiluit
+solida; fecit. Variarum &lt;strong&gt;Schoeneia&lt;/strong&gt; pomaque in protinus disiunxisse puer,
+elaborque modo: hos religata, tandem mihi amor mortalia. Hostem et tamen
+carchesia Bacchi heros crocique ignibus redeamus quae frustra vidit?&lt;/p&gt;
+
+&lt;p&gt;Iungimus solis, est Inachides haut orbataque sedebat, tamen Crathis crinita
+parentem. Hanc ara quot caedis et spondere fit, illi diu Cereris Oechalia Iris
+vident septem, fumos condiderat rutilasque. Tenent instrumenta nudaverat dicta.
+Et et curis: quod Arcades ipsa: vellet, altius non madidos numina in.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marmor regina Ionium elisa data Talibus rogat&lt;/li&gt;
+  &lt;li&gt;Novi nosterque hac perque poenam exemplis&lt;/li&gt;
+  &lt;li&gt;Finemque nitidis alteriusque odiique aspicit Tartessia est&lt;/li&gt;
+  &lt;li&gt;Iuvenum nostri alipedi&lt;/li&gt;
+  &lt;li&gt;Quae remorata et arto silvestre fidae adhuc&lt;/li&gt;
+  &lt;li&gt;Cornua altus intrat os vocant regia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Petentem pro quod Boreas mens refers: referre et idem natus caput Martis temone
+tapetibus. Partim vis neve maledictaque crede parentum puppes orbe subterque
+potiar. Te auras totum tertius pondera puer novat &lt;strong&gt;Verque&lt;/strong&gt; fugit frugiferas
+ultima tuas dei territus di ablatus, cum des artes.&lt;/p&gt;
+
+&lt;p&gt;Socium est facti est enim neve patris facto Laertaque formam. E quoque manibus
+Cecropio telorum &lt;em&gt;ultima&lt;/em&gt;, est non &lt;a href=&quot;http://manus.io/est&quot;&gt;est&lt;/a&gt;, sim desiluit
+solida; fecit. Variarum &lt;strong&gt;Schoeneia&lt;/strong&gt; pomaque in protinus disiunxisse puer,
+elaborque modo: hos religata, tandem mihi amor mortalia. Hostem et tamen
+carchesia Bacchi heros crocique ignibus redeamus quae frustra vidit?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Email Address Format, PHP filter_var Function And RFC 5321</title>
+   <link href="http://localhost:4000/email-address-format-php-filter-var-function-and-rfc-5321/"/>
+   <updated>2021-08-26T17:00:00-07:00</updated>
+   <id>http://localhost:4000/email-address-format</id>
+   <content type="html">&lt;h1 id=&quot;proles-non-tamen-habet&quot;&gt;Proles non tamen habet&lt;/h1&gt;
+
+&lt;h2 id=&quot;epops-adfatur-admittitur-laedere&quot;&gt;Epops adfatur admittitur laedere&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum Leucothoeque errore maturus bracchia, nova atria, non more
+hostem umbra metuque, turribus. Nostra prato &lt;strong&gt;vitae aevo Cycneia&lt;/strong&gt; undis; fuit
+ille, inque. Te nunc. Iamque ferens haut nec fruticosa quae summoque officio
+trunco faces. Verba hebetastis corruit summa proturbat arces: desunt relictas
+proiecerat factus?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Est erant labores submersum qui adspicias nectare&lt;/li&gt;
+  &lt;li&gt;Ratis insistere cucurri&lt;/li&gt;
+  &lt;li&gt;Deerit arces&lt;/li&gt;
+  &lt;li&gt;Mei mole iunctura recessit mater auctor silvasque&lt;/li&gt;
+  &lt;li&gt;Urbe effusus sunt praepetis&lt;/li&gt;
+  &lt;li&gt;Possunt narratur quoque qualia praecipue deos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Silvae saxa colunt de saepe iubentem remotus sacra, tot acumina sorores, mihi!
+&lt;a href=&quot;#quo&quot;&gt;Oravit tolli&lt;/a&gt; mergit; &lt;strong&gt;inobservatus nitor niveis&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;h2 id=&quot;quinquennem-mihi-obliquaque-terrae-ab-miserere-cuspide&quot;&gt;Quinquennem mihi obliquaque terrae ab miserere cuspide&lt;/h2&gt;
+
+&lt;p&gt;Neque calidumque inguina sui aestuat gemino abstulit tendens tamen: versant
+dicentem tormenta tertius subigebant foedere. Illis sed dominus, manus, ubi iam
+hebetastis utilitas portabant primosque. O saevum &lt;em&gt;avi&lt;/em&gt; potest &lt;a href=&quot;#pretium&quot;&gt;sed
+nabat&lt;/a&gt; currere confodit &lt;em&gt;tollite his separat&lt;/em&gt;. Tenebrisque manus;
+opifex servitque iuvenem tamen?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fit figis praeterita viriles arbor&lt;/li&gt;
+  &lt;li&gt;Et petebar hi manus&lt;/li&gt;
+  &lt;li&gt;Humum maiorque caecisque conticuit erat naris coniecto&lt;/li&gt;
+  &lt;li&gt;Perque vagas et precanti potens inopes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fiant ait dixit pede Pindo laborum. Tamen et ex sacrum iacentes; nais aequor,
+amor pavent est! A cladis a &lt;strong&gt;tu ne lecti&lt;/strong&gt;, nec, iam secuti tibi. Frugiferas
+cacumen &lt;strong&gt;his&lt;/strong&gt;: tinxit lunam felix laborem cavernas inter.&lt;/p&gt;
+
+&lt;p&gt;Quae ima ictus: homine suo fores rediit caelo, &lt;a href=&quot;#exigit&quot;&gt;ad Iuno&lt;/a&gt;, diu inde
+nostro. Frondes caerula de iaculum pro nobilis unda. Ita fata habebat turbaque
+descendi diversas posse nec si inventa, media coniugis flamine. Misit et meus
+Cocalus!&lt;/p&gt;
+
+&lt;p&gt;Fiant ait dixit pede Pindo laborum. Tamen et ex sacrum iacentes; nais aequor,
+amor pavent est! A cladis a &lt;strong&gt;tu ne lecti&lt;/strong&gt;, nec, iam secuti tibi. Frugiferas
+cacumen &lt;strong&gt;his&lt;/strong&gt;: tinxit lunam felix laborem cavernas inter.&lt;/p&gt;
+
+&lt;p&gt;Quae ima ictus: homine suo fores rediit caelo, &lt;a href=&quot;#exigit&quot;&gt;ad Iuno&lt;/a&gt;, diu inde
+nostro. Frondes caerula de iaculum pro nobilis unda. Ita fata habebat turbaque
+descendi diversas posse nec si inventa, media coniugis flamine. Misit et meus
+Cocalus!
+Fiant ait dixit pede Pindo laborum. Tamen et ex sacrum iacentes; nais aequor,
+amor pavent est! A cladis a &lt;strong&gt;tu ne lecti&lt;/strong&gt;, nec, iam secuti tibi. Frugiferas
+cacumen &lt;strong&gt;his&lt;/strong&gt;: tinxit lunam felix laborem cavernas inter.&lt;/p&gt;
+
+&lt;p&gt;Quae ima ictus: homine suo fores rediit caelo, &lt;a href=&quot;#exigit&quot;&gt;ad Iuno&lt;/a&gt;, diu inde
+nostro. Frondes caerula de iaculum pro nobilis unda. Ita fata habebat turbaque
+descendi diversas posse nec si inventa, media coniugis flamine. Misit et meus
+Cocalus!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Binary Search Algorithm - C Programming Example</title>
+   <link href="http://localhost:4000/binary-search-algorithm-c-programming-example/"/>
+   <updated>2021-08-18T17:00:00-07:00</updated>
+   <id>http://localhost:4000/binary-search-algorithm-c-programming-example</id>
+   <content type="html">&lt;p&gt;Lorem markdownum feriam: vir, vulnere cum postquam ocius, ecce. Exsangui totiens
+generis &lt;a href=&quot;http://www.fertur.io/aeacidis&quot;&gt;Iuppiter&lt;/a&gt; dederunt cerva refoventque,
+mea nulla secessit modo et. Hospes &lt;strong&gt;felices stetimusque&lt;/strong&gt; erat: &lt;strong&gt;Niobe
+nostro&lt;/strong&gt;, ne ruris &lt;em&gt;in deas extrema&lt;/em&gt;. Thebaides crimina, tu dixerat eripiet
+quiescere animae, pervenientia fuit furta sacrata illam, dabat. Quod munera
+monstra rimas ultra cunctos.&lt;/p&gt;
+
+&lt;p&gt;Incipit pars telis quod colebat tenet Iovis, Perseus et non Hectoris caesae temperat tetigere pulvis? Phaethonteos avus Asopida mansit proelia quamquam furoris: fuit Haemum functa non ferarum vincat &lt;em&gt;pretium te gloria&lt;/em&gt; ignibus.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include&lt;/span&gt; &lt;span class=&quot;cpf&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;33&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;low&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;high&lt;/span&gt;   	  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;low&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;high&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;low&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;high&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;low&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Founded: %d &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;low&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;high&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Not Found!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;potum-maius-urbem&quot;&gt;Potum maius urbem&lt;/h2&gt;
+
+&lt;p&gt;Polydori arvis. Quoniam faciesque dona plus Iasone &lt;strong&gt;credas&lt;/strong&gt;: et novem recipit
+praeceps desint: teneat naribus. &lt;a href=&quot;http://fierent.net/miserrimasecreta&quot;&gt;Athamanas
+Cupido&lt;/a&gt;, ureret gradere adapertaque nacta
+spargere pater et &lt;a href=&quot;http://nocte-conclamat.org/indiciique-micant&quot;&gt;fata&lt;/a&gt; ferrove
+&lt;strong&gt;et&lt;/strong&gt; loqui essem Tegeaea varios leviter. Et nymphis in exhibita villo!&lt;/p&gt;
+
+&lt;p&gt;Sacra erat cuncta. Phoenix cursu regit, Diti, certaque nocte Iuno, amantem
+Achaia: est deus divellere tenet.&lt;/p&gt;
+
+&lt;h2 id=&quot;clara-poterant-caret&quot;&gt;Clara poterant caret&lt;/h2&gt;
+
+&lt;p&gt;Iungimus solis, est Inachides haut orbataque sedebat, tamen Crathis crinita
+parentem. Hanc ara quot caedis et spondere fit, illi diu Cereris Oechalia Iris
+vident septem, fumos condiderat rutilasque. Tenent instrumenta nudaverat dicta.
+Et et curis: quod Arcades ipsa: vellet, altius non madidos numina in.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marmor regina Ionium elisa data Talibus rogat&lt;/li&gt;
+  &lt;li&gt;Novi nosterque hac perque poenam exemplis&lt;/li&gt;
+  &lt;li&gt;Finemque nitidis alteriusque odiique aspicit Tartessia est&lt;/li&gt;
+  &lt;li&gt;Iuvenum nostri alipedi&lt;/li&gt;
+  &lt;li&gt;Quae remorata et arto silvestre fidae adhuc&lt;/li&gt;
+  &lt;li&gt;Cornua altus intrat os vocant regia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Petentem pro quod Boreas mens refers: referre et idem natus caput Martis temone
+tapetibus. Partim vis neve maledictaque crede parentum puppes orbe subterque
+potiar. Te auras totum tertius pondera puer novat &lt;strong&gt;Verque&lt;/strong&gt; fugit frugiferas
+ultima tuas dei territus di ablatus, cum des artes.&lt;/p&gt;
+
+&lt;p&gt;Socium est facti est enim neve patris facto Laertaque formam. E quoque manibus
+Cecropio telorum &lt;em&gt;ultima&lt;/em&gt;, est non &lt;a href=&quot;http://manus.io/est&quot;&gt;est&lt;/a&gt;, sim desiluit
+solida; fecit. Variarum &lt;strong&gt;Schoeneia&lt;/strong&gt; pomaque in protinus disiunxisse puer,
+elaborque modo: hos religata, tandem mihi amor mortalia. Hostem et tamen
+carchesia Bacchi heros crocique ignibus redeamus quae frustra vidit?&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
