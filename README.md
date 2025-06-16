@@ -65,3 +65,44 @@ This project is open source and available under the [MIT License](LICENSE.md).
 # TBD
 - [ ] Change the logo when is dark or light
 - [ ] Add colors for links
+
+
+
+# Post Type
+
+# Basic Post Types:
+post_type: article     # → article (document icon)
+post_type: project     # → rocket_launch (rocket icon)
+post_type: image       # → image (image icon)
+post_type: video       # → play_circle (play button)
+post_type: tutorial    # → school (education icon)
+post_type: news        # → newspaper (news icon)
+post_type: code        # → code (code brackets)
+post_type: resource    # → link (link icon)
+# Default (no type)    # → description (document icon)
+
+# Additional Options You Can Use:
+post_type: blog        # → edit (pen icon)
+post_type: portfolio   # → work (briefcase icon)
+post_type: design      # → palette (color palette)
+post_type: photo       # → photo_camera (camera icon)
+post_type: music       # → music_note (music note)
+post_type: podcast     # → mic (microphone)
+post_type: book        # → menu_book (book icon)
+post_type: tool        # → build (tool icon)
+post_type: download    # → download (download arrow)
+post_type: external    # → open_in_new (external link)
+post_type: update      # → update (update icon)
+post_type: announcement # → campaign (megaphone)
+post_type: event       # → event (calendar icon)
+post_type: research    # → science (flask icon)
+post_type: guide       # → map (guide icon)
+post_type: tip         # → lightbulb (lightbulb icon)
+
+# To use in your post YAML front matter:
+---
+layout: post
+title: "My Post Title"
+date: 2023-12-01
+post_type: project
+---

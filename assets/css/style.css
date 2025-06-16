@@ -1,11 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext'); */
-@import "{{ site.theme }}";
 
 :root {
     --bg-color: #fcfcfc;
     --bg-hover-color: #ececec;
-    --body-bg: #fff;
-    --primary-font-color: #525252;
+    --body-bg: #fcfcfc;
+    --primary-font-color: #7a7a7a;
     --border-color: #f3f3f3;
     --h1-color: #1e1e1e;
 }
@@ -13,8 +12,8 @@
 [data-theme="dark"] {
   --bg-color: #1e1e1e;
   --bg-hover-color:#36404c;
-  --body-bg: #10171e;
-  --primary-font-color: #bfbfbf;
+  --body-bg: #1e1e1e;
+  --primary-font-color: #7a7a7a;
   --border-color: #373737;
   --h1-color: #fff;
 }
