@@ -5,7 +5,7 @@ date: 2025-06-14
 author: Danilo Briceño
 categories: [Web Development, Node.js]
 tags: [development, javascript, node.js]
-permalink: /my-first-web-application/
+permalink: /my-first-web-application-cripsos/
 ---
 
 ## The Journey Begins
