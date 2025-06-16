@@ -1,4 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext'); */
+@import "{{ site.theme }}";
+
 :root {
     --bg-color: #fcfcfc;
     --bg-hover-color: #ececec;
