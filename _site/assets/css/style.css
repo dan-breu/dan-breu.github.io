@@ -1,21 +1,23 @@
 /* @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext'); */
 
 :root {
-    --bg-color: #fcfcfc;
+    --bg-color: #f8f8f8;
     --bg-hover-color: #ececec;
-    --body-bg: #fcfcfc;
+    --body-bg: #f8f8f8;
     --primary-font-color: #7a7a7a;
     --border-color: #f3f3f3;
     --h1-color: #1e1e1e;
+    --profile-border-color: #eeeeee;
 }
 
 [data-theme="dark"] {
-  --bg-color: #1e1e1e;
+  --bg-color: #1f1e22;
   --bg-hover-color:#36404c;
-  --body-bg: #1e1e1e;
+  --body-bg: #1f1e22;
   --primary-font-color: #7a7a7a;
   --border-color: #373737;
   --h1-color: #fff;
+  --profile-border-color: #223539;
 }
 
 body{
@@ -40,6 +42,13 @@ h1 {
   margin-left: auto; 
   margin-right: auto;
 }
+
+
+
+
+
+
+
 .post-container{
   display: flex; 
   flex-direction: row; 
@@ -60,26 +69,55 @@ h1 {
   font-size: 12px;
 }
 
-.post-list{
+.post-list {
   width: 100%; 
   display: flex; 
   flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  justify-content: flex-start; 
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 5px;
-  /* background:var(--bg-color); */
   border-bottom: 1px solid var(--border-color);
-  /* border-radius: 10px; */
+}
+
+.post-list a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  width: 100%;
+  color: var(--primary-font-color);
+  text-decoration: none;
+  gap: 10px; /* Add space between children */
+}
+
+
+.post-icon {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  color: #7a7a7a;
+  margin-right: 10px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
 }
 
 .post-list:hover{
   background: var(--bg-hover-color);
 }
 
-.post-list .post-title{width: 80%; color: var(--primary-font-color); }
-.post-list .post-date{width: 20%; text-align: right;}
+.post-title {
+  color: var(--primary-font-color);
+  flex: 1;
+}
+
+.post-date {
+  white-space: nowrap;
+  text-align: right;
+}
+
+
+
 
 .post-header{
   width: 100%; 
@@ -160,7 +198,7 @@ h1 {
   margin-bottom: 20px;
 }
 .profile-image-container{width: 40%;}
-.profile-image{width: 128px; height: 128px; border-radius: 50%; transition: transform .2s;}
+.profile-image{width: 128px; height: 128px; border-radius: 50%; transition: transform .2s; border: 1px solid var(--profile-border-color);}
 .profile-image:hover{transform: scale(1.05);}
 .profile-about{width:60%; text-align: right;}
 

@@ -93,25 +93,6 @@
         },
     
         {
-            "id": "http://localhost:4000/security-holes-uno/",
-            "title": "Security Holes - UNO",
-            "summary": null,
-            "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=gXNsUWBXNlQ",
-            "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=gXNsUWBXNlQ</p>",
-            "url": "http://localhost:4000/security-holes-uno/",
-            
-            
-            
-            "tags": ["lapsus","sim-swapping","bitb"],
-            
-            "date_published": "2022-04-05T00:00:00-07:00",
-            "date_modified": "2022-04-05T00:00:00-07:00",
-            
-                "author": "Danilo Briceño"
-            
-        },
-    
-        {
             "id": "http://localhost:4000/security-holes-tres/",
             "title": "Security Holes - TRES",
             "summary": null,
@@ -123,8 +104,8 @@
             
             "tags": ["lapsus","sim-swapping","bitb"],
             
-            "date_published": "2022-04-05T00:00:00-07:00",
-            "date_modified": "2022-04-05T00:00:00-07:00",
+            "date_published": "2022-05-04T00:00:00-07:00",
+            "date_modified": "2022-05-04T00:00:00-07:00",
             
                 "author": "Danilo Briceño"
             
@@ -137,6 +118,25 @@
             "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=FXyPmWoJ3w4",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=FXyPmWoJ3w4</p>",
             "url": "http://localhost:4000/security-holes-dos/",
+            
+            
+            
+            "tags": ["lapsus","sim-swapping","bitb"],
+            
+            "date_published": "2022-04-21T00:00:00-07:00",
+            "date_modified": "2022-04-21T00:00:00-07:00",
+            
+                "author": "Danilo Briceño"
+            
+        },
+    
+        {
+            "id": "http://localhost:4000/security-holes-uno/",
+            "title": "Security Holes - UNO",
+            "summary": null,
+            "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=gXNsUWBXNlQ",
+            "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=gXNsUWBXNlQ</p>",
+            "url": "http://localhost:4000/security-holes-uno/",
             
             
             

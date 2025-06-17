@@ -1,0 +1,53 @@
+{% assign icon = "description" %}
+
+{% if post.post_type == "article" %}
+  {% assign icon = "description" %}
+{% elsif post.post_type == "project" %}
+  {% assign icon = "rocket_launch" %}
+{% elsif post.post_type == "image" %}
+  {% assign icon = "image" %}
+{% elsif post.post_type == "video" %}
+  {% assign icon = "play_circle" %}
+{% elsif post.post_type == "tutorial" %}
+  {% assign icon = "school" %}
+{% elsif post.post_type == "news" %}
+  {% assign icon = "newspaper" %}
+{% elsif post.post_type == "code" %}
+  {% assign icon = "code" %}
+{% elsif post.post_type == "resource" %}
+  {% assign icon = "link" %}
+{% elsif post.post_type == "blog" %}
+  {% assign icon = "edit" %}
+{% elsif post.post_type == "portfolio" %}
+  {% assign icon = "work" %}
+{% elsif post.post_type == "design" %}
+  {% assign icon = "palette" %}
+{% elsif post.post_type == "photo" %}
+  {% assign icon = "photo_camera" %}
+{% elsif post.post_type == "music" %}
+  {% assign icon = "music_note" %}
+{% elsif post.post_type == "podcast" %}
+  {% assign icon = "mic" %}
+{% elsif post.post_type == "book" %}
+  {% assign icon = "menu_book" %}
+{% elsif post.post_type == "tool" %}
+  {% assign icon = "build" %}
+{% elsif post.post_type == "download" %}
+  {% assign icon = "download" %}
+{% elsif post.post_type == "external" %}
+  {% assign icon = "open_in_new" %}
+{% elsif post.post_type == "update" %}
+  {% assign icon = "update" %}
+{% elsif post.post_type == "announcement" %}
+  {% assign icon = "campaign" %}
+{% elsif post.post_type == "event" %}
+  {% assign icon = "event" %}
+{% elsif post.post_type == "research" %}
+  {% assign icon = "science" %}
+{% elsif post.post_type == "guide" %}
+  {% assign icon = "map" %}
+{% elsif post.post_type == "tip" %}
+  {% assign icon = "lightbulb" %}
+{% endif %}
+
+<span class="material-icons post-icon">{{ icon }}</span>

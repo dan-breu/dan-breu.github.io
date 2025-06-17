@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Holes - DOS"
-date: 2022-04-05
+date: 2022-04-21
 author: Danilo Briceño
 categories: [Attacks, News]
 tags: [lapsus, sim-swapping, bitb]

@@ -4,7 +4,7 @@
  <title>Dan Breu</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2025-06-15T23:52:14-07:00</updated>
+ <updated>2025-06-16T23:24:35-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Danilo Briceño</name>
@@ -56,20 +56,9 @@
  </entry>
  
  <entry>
-   <title>Security Holes - UNO</title>
-   <link href="http://localhost:4000/security-holes-uno/"/>
-   <updated>2022-04-05T00:00:00-07:00</updated>
-   <id>http://localhost:4000/security-holes-uno</id>
-   <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=gXNsUWBXNlQ&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Security Holes - TRES</title>
    <link href="http://localhost:4000/security-holes-tres/"/>
-   <updated>2022-04-05T00:00:00-07:00</updated>
+   <updated>2022-05-04T00:00:00-07:00</updated>
    <id>http://localhost:4000/security-holes-tres</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
@@ -80,11 +69,22 @@
  <entry>
    <title>Security Holes - DOS</title>
    <link href="http://localhost:4000/security-holes-dos/"/>
-   <updated>2022-04-05T00:00:00-07:00</updated>
+   <updated>2022-04-21T00:00:00-07:00</updated>
    <id>http://localhost:4000/security-holes-dos</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=FXyPmWoJ3w4&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Security Holes - UNO</title>
+   <link href="http://localhost:4000/security-holes-uno/"/>
+   <updated>2022-04-05T00:00:00-07:00</updated>
+   <id>http://localhost:4000/security-holes-uno</id>
+   <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=gXNsUWBXNlQ&lt;/p&gt;
 </content>
  </entry>
  
