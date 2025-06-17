@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Dan Breu</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2025-06-16T23:24:35-07:00</updated>
- <id>http://localhost:4000</id>
+ <link href="danbreu.com/atom.xml" rel="self"/>
+ <link href="danbreu.com/"/>
+ <updated>2025-06-16T23:30:05-07:00</updated>
+ <id>danbreu.com</id>
  <author>
    <name>Danilo Briceño</name>
    <email>danbreu.com@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Notes on the CISSP Exam and My Study Method</title>
-   <link href="http://localhost:4000/cissp-study-method-exam-experience/"/>
+   <link href="danbreu.com/cissp-study-method-exam-experience/"/>
    <updated>2023-02-28T00:00:00-08:00</updated>
-   <id>http://localhost:4000/cissp-study-method-exam-experience</id>
+   <id>danbreu.com/cissp-study-method-exam-experience</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 &lt;p&gt;https://danbreu.medium.com/notas-sobre-el-examen-cissp-y-mi-m%C3%A9todo-de-estudio-c4c6b403e4d2&lt;/p&gt;
 </content>
@@ -24,9 +24,9 @@
  
  <entry>
    <title>My First Web Application: Cripsos.com</title>
-   <link href="http://localhost:4000/my-first-web-application-cripsos/"/>
+   <link href="danbreu.com/my-first-web-application-cripsos/"/>
    <updated>2022-06-22T00:00:00-07:00</updated>
-   <id>http://localhost:4000/my-first-web-application</id>
+   <id>danbreu.com/my-first-web-application</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://danbreu.medium.com/mi-primera-aplicaci%C3%B3n-web-b4ca29f450b1&lt;/p&gt;
@@ -35,9 +35,9 @@
  
  <entry>
    <title>My First Web Application in JavaScript and NodeJS</title>
-   <link href="http://localhost:4000/my-first-web-application-in-javascript-and-nodejs/"/>
+   <link href="danbreu.com/my-first-web-application-in-javascript-and-nodejs/"/>
    <updated>2022-06-22T00:00:00-07:00</updated>
-   <id>http://localhost:4000/my-first-web-application-in-javascript-and-nodejs</id>
+   <id>danbreu.com/my-first-web-application-in-javascript-and-nodejs</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=dbOfWBcsIng&lt;/p&gt;
@@ -46,9 +46,9 @@
  
  <entry>
    <title>Can PowerApps Create a Functional Application Without Code?</title>
-   <link href="http://localhost:4000/can-powerapps-create-a-functional-application/"/>
+   <link href="danbreu.com/can-powerapps-create-a-functional-application/"/>
    <updated>2022-06-01T00:00:00-07:00</updated>
-   <id>http://localhost:4000/can-powerapps-create-a-functional-application</id>
+   <id>danbreu.com/can-powerapps-create-a-functional-application</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://danbreu.medium.com/permite-powerapps-crear-una-aplicaci%C3%B3n-funcional-sin-c%C3%B3digo-esta-es-mi-experiencia-fb2024c86e8f&lt;/p&gt;
@@ -57,9 +57,9 @@
  
  <entry>
    <title>Security Holes - TRES</title>
-   <link href="http://localhost:4000/security-holes-tres/"/>
+   <link href="danbreu.com/security-holes-tres/"/>
    <updated>2022-05-04T00:00:00-07:00</updated>
-   <id>http://localhost:4000/security-holes-tres</id>
+   <id>danbreu.com/security-holes-tres</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=RjYiMMtLoEE&lt;/p&gt;
@@ -68,9 +68,9 @@
  
  <entry>
    <title>Security Holes - DOS</title>
-   <link href="http://localhost:4000/security-holes-dos/"/>
+   <link href="danbreu.com/security-holes-dos/"/>
    <updated>2022-04-21T00:00:00-07:00</updated>
-   <id>http://localhost:4000/security-holes-dos</id>
+   <id>danbreu.com/security-holes-dos</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=FXyPmWoJ3w4&lt;/p&gt;
@@ -79,9 +79,9 @@
  
  <entry>
    <title>Security Holes - UNO</title>
-   <link href="http://localhost:4000/security-holes-uno/"/>
+   <link href="danbreu.com/security-holes-uno/"/>
    <updated>2022-04-05T00:00:00-07:00</updated>
-   <id>http://localhost:4000/security-holes-uno</id>
+   <id>danbreu.com/security-holes-uno</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=gXNsUWBXNlQ&lt;/p&gt;
@@ -90,9 +90,9 @@
  
  <entry>
    <title>5 Initiatives to Drive Zero-Trust Adoption</title>
-   <link href="http://localhost:4000/5-initiatives-to-drive-zero-trust-adoption/"/>
+   <link href="danbreu.com/5-initiatives-to-drive-zero-trust-adoption/"/>
    <updated>2021-09-07T00:00:00-07:00</updated>
-   <id>http://localhost:4000/5-initiatives-to-drive-zero-trust-adoption</id>
+   <id>danbreu.com/5-initiatives-to-drive-zero-trust-adoption</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://danbreu.medium.com/5-iniciativas-para-impulsar-la-adopci%C3%B3n-de-zero-trust-3404a360f98b&lt;/p&gt;
@@ -101,9 +101,9 @@
  
  <entry>
    <title>Zero-Trust and its use in life itself</title>
-   <link href="http://localhost:4000/zero-trust-and-its-use-in-life-itself/"/>
+   <link href="danbreu.com/zero-trust-and-its-use-in-life-itself/"/>
    <updated>2021-06-07T00:00:00-07:00</updated>
-   <id>http://localhost:4000/zero-trust-and-its-use-in-life-itself</id>
+   <id>danbreu.com/zero-trust-and-its-use-in-life-itself</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://danbreu.medium.com/zero-trust-y-su-uso-en-la-vida-misma-7da158f1e786&lt;/p&gt;
@@ -112,9 +112,9 @@
  
  <entry>
    <title>A New Trend of 2021: Cybersecurity Mesh</title>
-   <link href="http://localhost:4000/a-new-trend-of-2021-cybersecurity-mesh/"/>
+   <link href="danbreu.com/a-new-trend-of-2021-cybersecurity-mesh/"/>
    <updated>2021-05-21T00:00:00-07:00</updated>
-   <id>http://localhost:4000/5-initiatives-to-drive-zero-trust-adoption copy</id>
+   <id>danbreu.com/5-initiatives-to-drive-zero-trust-adoption copy</id>
    <content type="html">&lt;h2 id=&quot;this-post-redirects-to-an-external-site&quot;&gt;This post redirects to an external site&lt;/h2&gt;
 
 &lt;p&gt;https://danbreu.medium.com/una-nueva-tendencia-del-2021-cybersecurity-mesh-10965e39f5e7&lt;/p&gt;

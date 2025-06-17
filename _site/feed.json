@@ -1,11 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Dan Breu",
-    "home_page_url": "http://localhost:4000/",
-    "feed_url": "http://localhost:4000/feed.json",
+    "home_page_url": "danbreu.com/",
+    "feed_url": "danbreu.com/feed.json",
     "description": "Personal Website of Dan Breu, a blog about technology, building software, design and enterpreneurship.",
-    "icon": "http://localhost:4000/assets/images/apple-touch-icon.png",
-    "favicon": "http://localhost:4000/assets/images/favicon.png",
+    "icon": "danbreu.com/assets/images/apple-touch-icon.png",
+    "favicon": "danbreu.com/assets/images/favicon.png",
     "expired": false,
     
     "author":  {
@@ -17,12 +17,12 @@
 "items": [
     
         {
-            "id": "http://localhost:4000/cissp-study-method-exam-experience/",
+            "id": "danbreu.com/cissp-study-method-exam-experience/",
             "title": "Notes on the CISSP Exam and My Study Method",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/notas-sobre-el-examen-cissp-y-mi-m%C3%A9todo-de-estudio-c4c6b403e4d2",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/notas-sobre-el-examen-cissp-y-mi-m%C3%A9todo-de-estudio-c4c6b403e4d2</p>",
-            "url": "http://localhost:4000/cissp-study-method-exam-experience/",
+            "url": "danbreu.com/cissp-study-method-exam-experience/",
             
             
             
@@ -36,12 +36,12 @@
         },
     
         {
-            "id": "http://localhost:4000/my-first-web-application-cripsos/",
+            "id": "danbreu.com/my-first-web-application-cripsos/",
             "title": "My First Web Application: Cripsos.com",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/mi-primera-aplicaci%C3%B3n-web-b4ca29f450b1",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/mi-primera-aplicaci%C3%B3n-web-b4ca29f450b1</p>",
-            "url": "http://localhost:4000/my-first-web-application-cripsos/",
+            "url": "danbreu.com/my-first-web-application-cripsos/",
             
             
             
@@ -55,12 +55,12 @@
         },
     
         {
-            "id": "http://localhost:4000/my-first-web-application-in-javascript-and-nodejs/",
+            "id": "danbreu.com/my-first-web-application-in-javascript-and-nodejs/",
             "title": "My First Web Application in JavaScript and NodeJS",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=dbOfWBcsIng",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=dbOfWBcsIng</p>",
-            "url": "http://localhost:4000/my-first-web-application-in-javascript-and-nodejs/",
+            "url": "danbreu.com/my-first-web-application-in-javascript-and-nodejs/",
             
             
             
@@ -74,12 +74,12 @@
         },
     
         {
-            "id": "http://localhost:4000/can-powerapps-create-a-functional-application/",
+            "id": "danbreu.com/can-powerapps-create-a-functional-application/",
             "title": "Can PowerApps Create a Functional Application Without Code?",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/permite-powerapps-crear-una-aplicaci%C3%B3n-funcional-sin-c%C3%B3digo-esta-es-mi-experiencia-fb2024c86e8f",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/permite-powerapps-crear-una-aplicaci%C3%B3n-funcional-sin-c%C3%B3digo-esta-es-mi-experiencia-fb2024c86e8f</p>",
-            "url": "http://localhost:4000/can-powerapps-create-a-functional-application/",
+            "url": "danbreu.com/can-powerapps-create-a-functional-application/",
             
             
             
@@ -93,12 +93,12 @@
         },
     
         {
-            "id": "http://localhost:4000/security-holes-tres/",
+            "id": "danbreu.com/security-holes-tres/",
             "title": "Security Holes - TRES",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=RjYiMMtLoEE",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=RjYiMMtLoEE</p>",
-            "url": "http://localhost:4000/security-holes-tres/",
+            "url": "danbreu.com/security-holes-tres/",
             
             
             
@@ -112,12 +112,12 @@
         },
     
         {
-            "id": "http://localhost:4000/security-holes-dos/",
+            "id": "danbreu.com/security-holes-dos/",
             "title": "Security Holes - DOS",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=FXyPmWoJ3w4",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=FXyPmWoJ3w4</p>",
-            "url": "http://localhost:4000/security-holes-dos/",
+            "url": "danbreu.com/security-holes-dos/",
             
             
             
@@ -131,12 +131,12 @@
         },
     
         {
-            "id": "http://localhost:4000/security-holes-uno/",
+            "id": "danbreu.com/security-holes-uno/",
             "title": "Security Holes - UNO",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://www.youtube.com/watch?v=gXNsUWBXNlQ",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://www.youtube.com/watch?v=gXNsUWBXNlQ</p>",
-            "url": "http://localhost:4000/security-holes-uno/",
+            "url": "danbreu.com/security-holes-uno/",
             
             
             
@@ -150,12 +150,12 @@
         },
     
         {
-            "id": "http://localhost:4000/5-initiatives-to-drive-zero-trust-adoption/",
+            "id": "danbreu.com/5-initiatives-to-drive-zero-trust-adoption/",
             "title": "5 Initiatives to Drive Zero-Trust Adoption",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/5-iniciativas-para-impulsar-la-adopci%C3%B3n-de-zero-trust-3404a360f98b",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/5-iniciativas-para-impulsar-la-adopci%C3%B3n-de-zero-trust-3404a360f98b</p>",
-            "url": "http://localhost:4000/5-initiatives-to-drive-zero-trust-adoption/",
+            "url": "danbreu.com/5-initiatives-to-drive-zero-trust-adoption/",
             
             
             
@@ -169,12 +169,12 @@
         },
     
         {
-            "id": "http://localhost:4000/zero-trust-and-its-use-in-life-itself/",
+            "id": "danbreu.com/zero-trust-and-its-use-in-life-itself/",
             "title": "Zero-Trust and its use in life itself",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/zero-trust-y-su-uso-en-la-vida-misma-7da158f1e786",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/zero-trust-y-su-uso-en-la-vida-misma-7da158f1e786</p>",
-            "url": "http://localhost:4000/zero-trust-and-its-use-in-life-itself/",
+            "url": "danbreu.com/zero-trust-and-its-use-in-life-itself/",
             
             
             
@@ -188,12 +188,12 @@
         },
     
         {
-            "id": "http://localhost:4000/a-new-trend-of-2021-cybersecurity-mesh/",
+            "id": "danbreu.com/a-new-trend-of-2021-cybersecurity-mesh/",
             "title": "A New Trend of 2021: Cybersecurity Mesh",
             "summary": null,
             "content_text": "This post redirects to an external sitehttps://danbreu.medium.com/una-nueva-tendencia-del-2021-cybersecurity-mesh-10965e39f5e7",
             "content_html": "<h2 id=\"this-post-redirects-to-an-external-site\">This post redirects to an external site</h2><p>https://danbreu.medium.com/una-nueva-tendencia-del-2021-cybersecurity-mesh-10965e39f5e7</p>",
-            "url": "http://localhost:4000/a-new-trend-of-2021-cybersecurity-mesh/",
+            "url": "danbreu.com/a-new-trend-of-2021-cybersecurity-mesh/",
             
             
             
