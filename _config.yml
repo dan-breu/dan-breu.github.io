@@ -1,9 +1,9 @@
 # Site settings
 site: Dan Breu
 title: Dan Breu
-keywords: danbreu, blog, personal, technology, building, software, design, enterpreneurship
+keywords: danbreu, cybersecurity, appsec, devsec, ekis cyber, fortinet, zero trust, cissp, security
 description: >-
-  Personal Website of Dan Breu, a blog about technology, building software, design and enterpreneurship.
+  Danilo Briceño, founder of Ekis Cyber and former Fortinet manager, is a cybersecurity leader focused on building innovative security products and protecting digital ecosystems.
 lang: en-US
 timezone:  America/Vancouver
 repo:  # site repo [optional]

@@ -6,6 +6,7 @@ author: Danilo Briceño
 categories: [Cybersecurity, Zero-Trust]
 tags: [identity, ztna, nac, sdp]
 permalink: /zero-trust-and-its-use-in-life-itself/
+description: "Exploring how Zero-Trust principles — never trust, always verify — can apply beyond cybersecurity to everyday life."
 post_type: article
 external_url: "https://danbreu.medium.com/zero-trust-y-su-uso-en-la-vida-misma-7da158f1e786"
 ---

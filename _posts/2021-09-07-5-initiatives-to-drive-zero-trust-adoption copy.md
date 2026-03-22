@@ -6,6 +6,7 @@ author: Danilo Briceño
 categories: [Cybersecurity]
 tags: [identity, ztna, mesh]
 permalink: /a-new-trend-of-2021-cybersecurity-mesh/
+description: "An overview of Cybersecurity Mesh, a rising 2021 trend enabling distributed security across digital ecosystems."
 post_type: article
 external_url: "https://danbreu.medium.com/una-nueva-tendencia-del-2021-cybersecurity-mesh-10965e39f5e7"
 ---

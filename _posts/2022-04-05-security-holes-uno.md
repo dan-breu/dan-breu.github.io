@@ -6,6 +6,7 @@ author: Danilo Briceño
 categories: [Attacks, News]
 tags: [lapsus, sim-swapping, bitb]
 permalink: /security-holes-uno/
+description: "First episode of Security Holes: deep dive into high-profile attacks including Lapsus$ and SIM-swapping."
 post_type: video
 external_url: "https://www.youtube.com/watch?v=gXNsUWBXNlQ"
 ---

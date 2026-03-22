@@ -1,27 +1,339 @@
 ---
-layout: default
-pagination:
-  enabled: true
+layout: ide
+title: Dan Breu
 ---
 
-<div class="post-container">
-  {% for post in paginator.posts %}
-    <div class="post-list">
-      {% if post.external_url %}
-        <a href="{{ post.external_url }}" target="_blank" rel="noopener">
-          {% include post-icon.html %}
-          <span class="post-title">{{ post.title }} <span class="external-link">↗</span></span>
-          <time class="post-date">{{ post.date | date: "%d.%m.%Y" }}</time>
-        </a>
-      {% else %}
-        <a href="{{ site.url }}{{ post.url }}">
-          {% include post-icon.html %}
-          <span class="post-title">{{ post.title }}</span>
-          <time class="post-date">{{ post.date | date: "%d.%m.%Y" }}</time>
-        </a>
-      {% endif %}
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     ABOUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="sec-panel sec-active" id="sec-about">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">about.md</span>
+  </div>
+  <div class="md-body">
+    <div class="about-profile">
+      <img class="about-avatar" id="about-avatar"
+           src="{{ site.url }}/assets/images/logo-dark.png"
+           alt="{{ site.author.name }}">
+      <div class="about-info">
+        <div class="about-name">{{ site.author.name }}</div>
+        <div class="about-handle">@danbreu</div>
+        <div class="about-bio">{{ site.author.bio }}</div>
+        <div class="about-social">
+          {% if site.author.github %}
+          <a class="social-lnk" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" title="GitHub">
+            <img src="{{ site.url }}/assets/images/icon/github.svg" alt="GitHub">
+          </a>
+          {% endif %}
+          {% if site.author.twitter %}
+          <a class="social-lnk" href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener" title="X / Twitter">
+            <img src="{{ site.url }}/assets/images/icon/twitter.svg" alt="Twitter">
+          </a>
+          {% endif %}
+          {% if site.author.linkedin %}
+          <a class="social-lnk" href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" title="LinkedIn">
+            <img src="{{ site.url }}/assets/images/icon/linkedin.svg" alt="LinkedIn">
+          </a>
+          {% endif %}
+          {% if site.author.instagram %}
+          <a class="social-lnk" href="https://instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener" title="Instagram">
+            <img src="{{ site.url }}/assets/images/icon/instagram.svg" alt="Instagram">
+          </a>
+          {% endif %}
+          {% if site.author.youtube %}
+          <a class="social-lnk" href="{{ site.author.youtube }}" target="_blank" rel="noopener" title="YouTube">
+            <img src="{{ site.url }}/assets/images/icon/youtube.svg" alt="YouTube">
+          </a>
+          {% endif %}
+          {% if site.author.email %}
+          <a class="social-lnk" href="https://docs.google.com/forms/d/1U-TXPspSe7LZKSxnu7Z4zsUVobepvcl3320CvEAw-4M/" target="_blank" rel="noopener" title="Email">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          {% endif %}
+        </div>
+      </div>
     </div>
-  {% endfor %}
+
+    <h2>Hey, I'm Dan</h2>
+    <p>
+      I'm a founder, security engineer, and builder based in Vancouver.
+      I work at the intersection of software development, application security,
+      and entrepreneurship — currently building at <strong>ekiscyber</strong>.
+    </p>
+    <p>
+      This site is where I share writing, projects, and resources around
+      AppSec, DevSec, productivity, and building software products.
+    </p>
+
+    <h2>What I do</h2>
+    <ul>
+      <li><strong>AppSec &amp; DevSec</strong> — securing modern applications and development pipelines</li>
+      <li><strong>Building products</strong> — from idea to shipped software</li>
+      <li><strong>Writing &amp; teaching</strong> — notes, guides, and reflections on the craft</li>
+    </ul>
+
+    <h2>Currently</h2>
+    <p>
+      Founder at <a href="https://ekiscyber.com" target="_blank" rel="noopener">@ekiscyber</a>.
+      CISSP certified. Passionate about zero-trust architecture, developer tooling, and macOS productivity.
+    </p>
+  </div>
 </div>
 
-{% include pagination.html %}
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     WRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="sec-panel" id="sec-write">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">write.md</span>
+  </div>
+  <div class="md-body">
+    <h1>Writing</h1>
+    <p class="section-label">{{ site.posts | size }} posts · security, building, tools &amp; ideas</p>
+    <hr class="divider">
+    <ul class="post-list-ul">
+      {% for post in site.posts %}
+      <li class="post-list-item">
+        {% if post.external_url %}
+          <a class="post-lnk" href="{{ post.external_url }}" target="_blank" rel="noopener">
+            <span class="post-lnk-txt">{{ post.title }}</span>
+            <span class="post-ext-icon">↗</span>
+          </a>
+        {% else %}
+          <a class="post-lnk" href="{{ site.url }}{{ post.url }}">
+            <span class="post-lnk-txt">{{ post.title }}</span>
+          </a>
+        {% endif %}
+        {% if post.post_type %}<span class="post-type-badge">{{ post.post_type }}</span>{% endif %}
+        <span class="post-lnk-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     VIDEOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="sec-panel" id="sec-videos">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">videos.md</span>
+  </div>
+  <div class="md-body">
+    <h1>Videos</h1>
+    <p class="section-label">YouTube · security, tools &amp; tutorials</p>
+    <hr class="divider">
+    <p>I publish videos about application security, developer tooling, and productivity on YouTube.</p>
+    <a class="yt-channel-btn" href="{{ site.author.youtube }}" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      Watch on YouTube
+    </a>
+
+    <h2 style="margin-top:40px">Recent Videos</h2>
+    <div class="videos-grid">
+      <div class="video-card">
+        <a href="{{ site.author.youtube }}" target="_blank" rel="noopener">
+          <div class="video-thumb">▶</div>
+        </a>
+        <div class="video-info">
+          <div class="video-title">AppSec &amp; DevSec Guides</div>
+          <div class="video-desc">Security engineering walkthroughs and tutorials</div>
+        </div>
+      </div>
+      <div class="video-card">
+        <a href="{{ site.author.youtube }}" target="_blank" rel="noopener">
+          <div class="video-thumb">▶</div>
+        </a>
+        <div class="video-info">
+          <div class="video-title">macOS Productivity</div>
+          <div class="video-desc">Tools and workflows for developers</div>
+        </div>
+      </div>
+      <div class="video-card">
+        <a href="{{ site.author.youtube }}" target="_blank" rel="noopener">
+          <div class="video-thumb">▶</div>
+        </a>
+        <div class="video-info">
+          <div class="video-title">Building in Public</div>
+          <div class="video-desc">Founder journey, product &amp; lessons learned</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     PROJECTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="sec-panel" id="sec-projects">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">projects.md</span>
+  </div>
+  <div class="md-body">
+    <h1>Projects</h1>
+    <p class="section-label">things I've built &amp; shipped</p>
+    <hr class="divider">
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">🛡️</span>
+          <a class="project-gh" href="https://ekiscyber.com" target="_blank" rel="noopener"
+             title="Visit">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+        <div class="project-name">ekiscyber</div>
+        <div class="project-desc">Application security and DevSecOps services helping teams build and ship secure software.</div>
+        <div class="project-tags">
+          <span class="tech-tag">AppSec</span>
+          <span class="tech-tag">DevSecOps</span>
+          <span class="tech-tag">Security</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">📝</span>
+          <a class="project-gh" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" title="GitHub">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+        </div>
+        <div class="project-name">danbreu.com</div>
+        <div class="project-desc">This IDE-style personal site — a Jekyll portfolio inspired by VS Code and modern code editors.</div>
+        <div class="project-tags">
+          <span class="tech-tag">Jekyll</span>
+          <span class="tech-tag">CSS Grid</span>
+          <span class="tech-tag">Vanilla JS</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">🔐</span>
+        </div>
+        <div class="project-name">Security Writing</div>
+        <div class="project-desc">Zero Trust adoption guides, CISSP notes, security holes series, and more published on this blog and Medium.</div>
+        <div class="project-tags">
+          <span class="tech-tag">Zero Trust</span>
+          <span class="tech-tag">CISSP</span>
+          <span class="tech-tag">Writing</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">⚡</span>
+        </div>
+        <div class="project-name">JS &amp; Node.js Apps</div>
+        <div class="project-desc">Early experiments building web applications with JavaScript and Node.js — covering the full stack.</div>
+        <div class="project-tags">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Web</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     CONTACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="sec-panel" id="sec-contact">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">contact.md</span>
+  </div>
+  <div class="md-body">
+    <h1>Contact</h1>
+    <p class="section-label">get in touch</p>
+    <hr class="divider">
+    <p>The best way to reach me is through Twitter/X or email. I'm also active on LinkedIn and GitHub.</p>
+
+    <div class="contact-grid">
+      {% if site.author.email %}
+      <a class="contact-card" href="https://docs.google.com/forms/d/1U-TXPspSe7LZKSxnu7Z4zsUVobepvcl3320CvEAw-4M/" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-handle">{{ site.author.email }}</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+      {% if site.author.twitter %}
+      <a class="contact-card" href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <img src="{{ site.url }}/assets/images/icon/twitter.svg" alt="Twitter">
+        </div>
+        <div>
+          <div class="contact-label">Twitter / X</div>
+          <div class="contact-handle">@{{ site.author.twitter }}</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+      {% if site.author.linkedin %}
+      <a class="contact-card" href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <img src="{{ site.url }}/assets/images/icon/linkedin.svg" alt="LinkedIn">
+        </div>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-handle">/in/{{ site.author.linkedin }}</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+      {% if site.author.github %}
+      <a class="contact-card" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <img src="{{ site.url }}/assets/images/icon/github.svg" alt="GitHub">
+        </div>
+        <div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-handle">{{ site.author.github }}</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+      {% if site.author.instagram %}
+      <a class="contact-card" href="https://instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <img src="{{ site.url }}/assets/images/icon/instagram.svg" alt="Instagram">
+        </div>
+        <div>
+          <div class="contact-label">Instagram</div>
+          <div class="contact-handle">@{{ site.author.instagram }}</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+      {% if site.author.youtube %}
+      <a class="contact-card" href="{{ site.author.youtube }}" target="_blank" rel="noopener">
+        <div class="contact-icon-wrap">
+          <img src="{{ site.url }}/assets/images/icon/youtube.svg" alt="YouTube">
+        </div>
+        <div>
+          <div class="contact-label">YouTube</div>
+          <div class="contact-handle">@danbreu</div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

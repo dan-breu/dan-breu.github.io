@@ -6,6 +6,7 @@ author: Danilo Briceño
 categories: [Web Development, Powerapps, No-Code]
 tags: [development, powerapps, nocode]
 permalink: /can-powerapps-create-a-functional-application/
+description: "Testing Microsoft PowerApps to build a real functional application — exploring the limits of no-code development."
 post_type: article
 external_url: "https://danbreu.medium.com/permite-powerapps-crear-una-aplicaci%C3%B3n-funcional-sin-c%C3%B3digo-esta-es-mi-experiencia-fb2024c86e8f"
 ---

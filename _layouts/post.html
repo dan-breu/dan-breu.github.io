@@ -1,39 +1,85 @@
 ---
-layout: default
+layout: ide
 ---
 {% if page.mathjax %}
-<script type="text/javascript"
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
-<div class="post-header">
-	<div class="post-date">{{ page.date | date: "%d.%m.%Y" }}</div>
-	<div class="post-share">
-		Share:&nbsp; 
-		<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/facebook.svg" class="social-icon"></a>
-		<a href="https://twitter.com/intent/tweet?source=tweetbutton&amp;original_referer={{site.url}}/{{page.slug}}&amp;text={{page.title}} - {{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon"></a>
-		<a href="https://api.whatsapp.com/send?text={{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/whatsapp.svg" class="social-icon"></a>
-	</div>
-</div>
 
-<div class="blog-post-content">
-	{% if page.external_url %}
-		<h1><a href="{{ page.external_url }}" target="_blank" rel="noopener">{{ page.title }} <span class="external-link">↗</span></a></h1>
-	{% else %}
-		<h1>{{ page.title }}</h1>
-	{% endif %}
-	{{ content }}
+<div class="sec-panel sec-active" id="sec-post">
+  <div class="breadcrumb">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+    </svg>
+    <span>danbreu.com</span>
+    <span class="bc-sep">›</span>
+    <a href="/#write" style="color:var(--text-muted)">write.md</a>
+    <span class="bc-sep">›</span>
+    <span class="bc-file">{{ page.slug }}.md</span>
+  </div>
+
+  <div class="md-body">
+    <div class="post-top">
+      <h1 class="post-h1">
+        {% if page.external_url %}
+          <a href="{{ page.external_url }}" target="_blank" rel="noopener">
+            {{ page.title }}
+            <span class="post-ext-tag">↗</span>
+          </a>
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+      </h1>
+
+      <div class="post-meta-row">
+        <span class="post-meta-date">{{ page.date | date: "%d.%m.%Y" }}</span>
+        {% if page.tags and page.tags.size > 0 %}
+          <span style="color:var(--border)">·</span>
+          {% for tag in page.tags limit:3 %}
+            <a class="post-tag" href="{{ site.url }}/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
+        <div class="post-share">
+          Share:
+          <a class="share-lnk" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" title="Share on Twitter">
+            <img src="{{ site.url }}/assets/images/icon/twitter.svg" alt="Twitter">
+          </a>
+          <a class="share-lnk" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" title="Share on Facebook">
+            <img src="{{ site.url }}/assets/images/icon/facebook.svg" alt="Facebook">
+          </a>
+          <a class="share-lnk" href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" target="_blank" rel="noopener" title="Share on WhatsApp">
+            <img src="{{ site.url }}/assets/images/icon/whatsapp.svg" alt="WhatsApp">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {{ content }}
+
+    {% if page.tags and page.tags.size > 0 %}
+    <div class="post-tags-row" style="margin-top:24px">
+      {% for tag in page.tags %}
+        <a class="post-tag" href="{{ site.url }}/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <nav class="post-nav">
+      {% if page.previous %}
+        <a class="post-nav-lnk" href="{{ page.previous.url | relative_url }}">
+          <span class="post-nav-dir">← Older</span>
+          <span class="post-nav-title">{{ page.previous.title }}</span>
+        </a>
+      {% else %}
+        <div></div>
+      {% endif %}
+      {% if page.next %}
+        <a class="post-nav-lnk post-nav-next" href="{{ page.next.url | relative_url }}">
+          <span class="post-nav-dir">Newer →</span>
+          <span class="post-nav-title">{{ page.next.title }}</span>
+        </a>
+      {% endif %}
+    </nav>
+
+    {% include disqus.html %}
+  </div>
 </div>
-<div class="tags-container">
-	{% for tag in page.tags %}
-		<a href="{{ site.url }}/tags/#{{tag | cgi_escape}}" class="post-tag">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
-	{% endfor %}
-</div>
-<div class="navigation">
-	{% if page.previous %}
-		<a class="prev" href="{{ page.previous | relative_url }}">< {{ page.previous.title }}</a>
-	{% endif %} {% if page.next %}
-	<a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
-{% endif %}
-</div>
-{% include disqus.html %}
