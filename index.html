@@ -50,7 +50,7 @@ title: Dan Breu
           {% endif %}
           {% if site.author.email %}
           <a class="social-lnk" href="https://docs.google.com/forms/d/1U-TXPspSe7LZKSxnu7Z4zsUVobepvcl3320CvEAw-4M/" target="_blank" rel="noopener" title="Email">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <img src="{{ site.url }}/assets/images/icon/mail.svg" alt="Email">
           </a>
           {% endif %}
         </div>
@@ -60,25 +60,25 @@ title: Dan Breu
     <h2>Hey, I'm Dan</h2>
     <p>
       I'm a founder, security engineer, and builder based in Vancouver.
-      I work at the intersection of software development, application security,
-      and entrepreneurship — currently building at <strong>ekiscyber</strong>.
+      I work at the intersection of <span class="hl-cyan">software development</span>, <span class="hl-cyan">application security</span>,
+      and <span class="hl-purple">entrepreneurship</span> — currently building at <span class="hl-green">ekiscyber</span>.
     </p>
     <p>
-      This site is where I share writing, projects, and resources around
-      AppSec, DevSec, productivity, and building software products.
+      This site is where I share <span class="hl-purple">writing</span>, <span class="hl-yellow">projects</span>, and resources around
+      <span class="hl-cyan">AppSec</span>, <span class="hl-cyan">DevSec</span>, <span class="hl-yellow">productivity</span>, and <span class="hl-yellow">building software</span> products.
     </p>
 
     <h2>What I do</h2>
     <ul>
-      <li><strong>AppSec &amp; DevSec</strong> — securing modern applications and development pipelines</li>
-      <li><strong>Building products</strong> — from idea to shipped software</li>
-      <li><strong>Writing &amp; teaching</strong> — notes, guides, and reflections on the craft</li>
+      <li><span class="hl-cyan">AppSec &amp; DevSec</span> — securing modern applications and development pipelines</li>
+      <li><span class="hl-yellow">Building products</span> — from idea to shipped software</li>
+      <li><span class="hl-purple">Writing &amp; teaching</span> — notes, guides, and reflections on the craft</li>
     </ul>
 
     <h2>Currently</h2>
     <p>
-      Founder at <a href="https://ekiscyber.com" target="_blank" rel="noopener">@ekiscyber</a>.
-      CISSP certified. Passionate about zero-trust architecture, developer tooling, and macOS productivity.
+      Founder at <a href="https://ekiscyber.com" target="_blank" rel="noopener"><span class="hl-green">@ekiscyber</span></a>.
+      <span class="hl-yellow">CISSP</span> certified. Passionate about <span class="hl-cyan">zero-trust architecture</span>, <span class="hl-yellow">developer tooling</span>, and <span class="hl-yellow">macOS productivity</span>.
     </p>
   </div>
 </div>
@@ -256,8 +256,6 @@ title: Dan Breu
   </div>
   <div class="md-body">
     <h1>Contact</h1>
-    <p class="section-label">get in touch</p>
-    <hr class="divider">
     <p>The best way to reach me is through Twitter/X or email. I'm also active on LinkedIn and GitHub.</p>
 
     <div class="contact-grid">
@@ -273,6 +271,8 @@ title: Dan Breu
         <span class="contact-arrow">↗</span>
       </a>
       {% endif %}
+    <p class="section-label">get in touch</p>
+    <hr class="divider">
       {% if site.author.twitter %}
       <a class="contact-card" href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">
         <div class="contact-icon-wrap">
